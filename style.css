@@ -1,0 +1,29 @@
+/* Selettore di tag */
+h1{
+    color:red;
+}
+p{
+    color:blue;
+    font-size: 18px;
+}
+/* Selettore di Classe */
+.speciale{
+    color:red;
+    font-weight: bold;
+}
+/* Selettore di id */
+#importante{
+    color:purple;
+    background-color: yellow;
+    padding:10px;
+}
+/* Combinatori */
+section > p{
+    background-color: lightblue;
+    padding:10px;
+}
+/* Adiacente ad H3 (solo il primo) */
+h3 + p{
+    font-weight: bold;
+    color:green;
+}
