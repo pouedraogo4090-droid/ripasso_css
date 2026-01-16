@@ -27,3 +27,27 @@ h3 + p{
     font-weight: bold;
     color:green;
 }
+/*Tutti i discendenti */
+section p{
+    color:red;
+}
+/*PSEUDOCLASSI */
+
+button {
+    background-color:green;
+    border-radius: 5px;
+    border:none;
+    cursor:pointer;
+    padding:15px 30px;
+    color:white;
+    font-size: 16px;
+}
+
+button:hover{
+    background-color:darkgreen;
+    transform:scale(1.1);
+}
+button:active{
+    transform:scale(0.95);
+    
+}
